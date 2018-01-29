@@ -1,0 +1,157 @@
+Training_h2a.03.20@HDC2-D-BRLG882 MINGW64 ~
+$ cd C:
+
+Training_h2a.03.20@HDC2-D-BRLG882 MINGW64 /c
+$ cd amit
+
+Training_h2a.03.20@HDC2-D-BRLG882 MINGW64 /c/amit
+$ pwd
+/c/amit
+
+Training_h2a.03.20@HDC2-D-BRLG882 MINGW64 /c/amit
+$ git clone https://github.com/amitgit2018/JAN29HDC.git
+Cloning into 'JAN29HDC'...
+remote: Counting objects: 15, done.
+remote: Compressing objects: 100% (14/14), done.
+remote: Total 15 (delta 2), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (15/15), done.
+
+Training_h2a.03.20@HDC2-D-BRLG882 MINGW64 /c/amit
+$ ^C
+
+Training_h2a.03.20@HDC2-D-BRLG882 MINGW64 /c/amit
+$ pwd
+/c/amit
+
+Training_h2a.03.20@HDC2-D-BRLG882 MINGW64 /c/amit
+$ pwd
+/c/amit
+
+Training_h2a.03.20@HDC2-D-BRLG882 MINGW64 /c/amit
+$ pwd
+/c/amit
+
+Training_h2a.03.20@HDC2-D-BRLG882 MINGW64 /c/amit
+$ pwd
+/c/amit
+
+Training_h2a.03.20@HDC2-D-BRLG882 MINGW64 /c/amit
+$ pwd
+/c/amit
+
+Training_h2a.03.20@HDC2-D-BRLG882 MINGW64 /c/amit
+$ pwd
+/c/amit
+
+Training_h2a.03.20@HDC2-D-BRLG882 MINGW64 /c/amit
+$ cd JAN29HDC
+
+Training_h2a.03.20@HDC2-D-BRLG882 MINGW64 /c/amit/JAN29HDC (master)
+$ git checkout develop1
+Switched to a new branch 'develop1'
+M       file2
+Branch 'develop1' set up to track remote branch 'develop1' from 'origin'.
+
+Training_h2a.03.20@HDC2-D-BRLG882 MINGW64 /c/amit/JAN29HDC (develop1)
+$ git add .
+
+Training_h2a.03.20@HDC2-D-BRLG882 MINGW64 /c/amit/JAN29HDC (develop1)
+$ git status
+On branch develop1
+Your branch is up to date with 'origin/develop1'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   file2
+        new file:   testfile.txt
+
+
+Training_h2a.03.20@HDC2-D-BRLG882 MINGW64 /c/amit/JAN29HDC (develop1)
+$ git commit -m "Initial commit from local WD"
+[develop1 fbd946d] Initial commit from local WD
+ Committer: Training_H2A.03.20 <Training_h2a.03.20@accenture.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+ create mode 100644 testfile.txt
+
+Training_h2a.03.20@HDC2-D-BRLG882 MINGW64 /c/amit/JAN29HDC (develop1)
+$ git push --set-upstream origin develop1
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 450 bytes | 450.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/amitgit2018/JAN29HDC.git
+   40a8b6e..fbd946d  develop1 -> develop1
+Branch 'develop1' set up to track remote branch 'develop1' from 'origin'.
+
+Training_h2a.03.20@HDC2-D-BRLG882 MINGW64 /c/amit/JAN29HDC (develop1)
+$ git checkout 'master'
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+Training_h2a.03.20@HDC2-D-BRLG882 MINGW64 /c/amit/JAN29HDC (master)
+$ git merge develop1
+Merge made by the 'recursive' strategy.
+ file2        | 3 ++-
+ testfile.txt | 1 +
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+ create mode 100644 testfile.txt
+
+Training_h2a.03.20@HDC2-D-BRLG882 MINGW64 /c/amit/JAN29HDC (master)
+$ git push
+Counting objects: 2, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 311 bytes | 311.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/amitgit2018/JAN29HDC.git
+   cb1ef0a..80fac8f  master -> master
+Training_h2a.03.20@HDC2-D-BRLG882 MINGW64 /c/amit/JAN29HDC (master)
+$ pwd
+/c/amit/JAN29HDC
+
+Training_h2a.03.20@HDC2-D-BRLG882 MINGW64 /c/amit/JAN29HDC (master)
+$ cd ..
+
+Training_h2a.03.20@HDC2-D-BRLG882 MINGW64 /c/amit
+$ pwd
+/c/amit
+
+Training_h2a.03.20@HDC2-D-BRLG882 MINGW64 /c/amit
+$ ls-;
+bash: ls-: command not found
+
+Training_h2a.03.20@HDC2-D-BRLG882 MINGW64 /c/amit
+$ ls-l
+bash: ls-l: command not found
+
+Training_h2a.03.20@HDC2-D-BRLG882 MINGW64 /c/amit
+$ ls
+JAN29HDC/  LocalRepositorySample/
+
+Training_h2a.03.20@HDC2-D-BRLG882 MINGW64 /c/amit
+$ cd LocalRepositorySample
+
+Training_h2a.03.20@HDC2-D-BRLG882 MINGW64 /c/amit/LocalRepositorySample
+$ git init .
+Initialized empty Git repository in C:/amit/LocalRepositorySample/.git/
+
+Training_h2a.03.20@HDC2-D-BRLG882 MINGW64 /c/amit/LocalRepositorySample (master)
+$
+
+$git stash
+
+$git remote and origin https://github.com/amitgit2018/JAN29HDC.git
